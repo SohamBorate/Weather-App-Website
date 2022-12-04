@@ -1,0 +1,78 @@
+body {
+    font-family: "Montserrat-Black", sans-serif;
+    text-align: center;
+    background: rgb(238,174,202);
+    background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+label, input, button {
+    margin: 6px 0px;
+}
+
+.container-fluid {
+    padding: 3% 35% 5%;
+}
+
+.input {
+    margin: 10%;
+    padding: 5%;
+    text-align: left;
+}
+
+#locationInput {
+    background: rgba(238,174,202,1);
+    color: white;
+    border: 1px solid;
+    border-color: white;
+}
+
+#locationInput::placeholder {
+    color: white;
+}
+
+#searchBtn {
+    background: #FFC4E1;
+}
+
+#searchBtn:hover {
+    color: white;
+}
+
+.card-col {
+    padding: 10% 0%;
+}
+
+.card-header {
+    background: rgba(238,174,202,1);
+    border-color: white;
+}
+
+.card-body {
+    background: #FFC4E1;
+}
+
+#weather-icon {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 1rem;
+}
+
+@media (max-width: 1028px) {
+    .container-fluid {
+        padding: 3% 20% 5%;
+    }
+
+    .card-col {
+        padding: 0%;
+    }
+}
